@@ -97,7 +97,7 @@ bool send_device_registration() {
       "serial_number":"00001",
       "hw_version":"1.00",
       "sw_version":"2025.0.0",
-      "configuration_url": "https://github.com/melnijir/brewrobot-tap-weight"
+      "configuration_url": "https://github.com/melnijir/brewrobot-relay"
     }
   })";
   registration_json.replace("XXX",get_device_id());
